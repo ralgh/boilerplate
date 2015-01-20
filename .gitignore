@@ -116,4 +116,5 @@ UpgradeLog*.XML
 .sass-cache/
 compass_app_log.txt
 css/
-node_modules
+node_modules/
+.c9/
