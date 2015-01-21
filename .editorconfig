@@ -4,8 +4,8 @@ root = true  ; top-most EditorConfig file
 
 ; Unix-style newlines with a newline ending every file
 [*]
-indent_style = tab
-
+indent_style = space
+indent_size = 4
 
 [*.cs]
 indent_style = space
