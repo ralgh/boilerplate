@@ -117,3 +117,6 @@ UpgradeLog*.XML
 compass_app_log.txt
 css/
 node_modules/
+
+# Jetbrains IDE
+.idea
