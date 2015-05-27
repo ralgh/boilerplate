@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
  var config = {
     author: "PixelMEDIA, Inc",
-    webRoot: '',
+    webRoot: 'src/',
     deploy: ''
   };
 
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      files: ['static/sass/**'],
+      files: [config.webRoot + 'static/sass/**'],
       tasks: ['sass:dev']
     },
 
@@ -85,7 +85,7 @@ module.exports = function(grunt) {
         },
         files: {
           src: [
-            config.webRoot + 'static/sass/**/*.scss', 
+            config.webRoot + 'static/sass/**/*.scss',
             config.webRoot + 'static/js/**/*.js',
             '!' + config.webRoot + 'static/js/**/*.min.js'
           ]
